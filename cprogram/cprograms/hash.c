@@ -11,7 +11,7 @@ int hash(char *str){
 }
 
 int main() {
-    char *name[17]= {"Adarsh", "Ananya", "Animesh", "Aswin", "Bhupendra", "Bighnesh", "Chinmay", "Chitrak", "Deepjyoti", "Hemojyoti", "Monika", "Neehar", "Rithik", "Soumyojit",  "Suman", "Sankar", "Sindhu"};
+    char *name[17]= {"Aman", "Abhijeet", "Aarti", "Aswin", "Barkha", "Balaji", "Chuiya", "Chitrak", "Deepak", "Hemojyoti", "Monika", "Nishi", "Rithik", "Sauarav",  "Suman", "Sankar", "Siraj"};
     int hashed[17];
     for(int i=0; i<17; i++){
         hashed[i] = hash(name[i]);
